@@ -3,6 +3,7 @@
  * 
  * @author Robyn Felton
  */
+package cis232.lab2;
 
 public class L2_232RFel {
     /*

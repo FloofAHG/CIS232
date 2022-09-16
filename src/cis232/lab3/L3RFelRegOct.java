@@ -1,3 +1,5 @@
+package cis232.lab3;
+
 public class L3RFelRegOct extends Shape {
     public L3RFelRegOct(double s) {
         side = s;
