@@ -7,9 +7,7 @@
 package cis232.lab4;
 
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-//import cis232.lab3.*;
 
 public class L4RFel {
     public static String randomChar() {
@@ -22,14 +20,14 @@ public class L4RFel {
         return output;
     }
 
-    public static void arrayListSort(ArrayList c) {
+    public static void arrayListSort(ArrayList<Comparable> c) {
         for (int i = 0; i < 10; i++) {
             Object temp = null;
             for (int j = i; j < 10; j++) {
                 if (c.get(j).compareTo(temp) > 0) {
                     temp = c.get(j);
                     c.set(j, c.get(i));
-                    c.set(i, temp);
+                    // c.set(i, temp);
                 }
             }
         }
@@ -61,10 +59,10 @@ public class L4RFel {
             }
             System.out.println(strings.get(i));
         }
-        arrayListSort(numbers);
-        arrayListSort(doubles);
-        arrayListSort(strings);
-        System.out.println("\nInteger ArrayList Sorted: ");
+        //
+        // System.out.println("\nIarrayListSort(numbers);
+        // arrayListSort(doubles);
+        // arrayListSort(strings);nteger ArrayList Sorted: ");
         for (int k = 0; k < 10; k++) {
             System.out.println(numbers.get(k));
         }
